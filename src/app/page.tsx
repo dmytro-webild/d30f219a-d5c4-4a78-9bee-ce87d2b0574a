@@ -152,7 +152,7 @@ export default function LandingPage() {
           name: "Sarah J.",
           role: "CEO",
           testimonial: "Ace transformed our brand from dated to premium. The ROI was immediate.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BcXR0o4f3w2hcqqi6WPNix2hgO/portrait-of-a-confident-successful-ceo-p-1774878370228-32327326.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BcXR0o4f3w2hcqqi6WPNix2hgO/portrait-of-a-confident-successful-ceo-p-1774878370228-32327326.png?_wi=1",
         },
         {
           id: "2",
@@ -180,7 +180,7 @@ export default function LandingPage() {
           name: "Elena R.",
           role: "Product Lead",
           testimonial: "An incredible eye for detail that completely leveled up our product landing page.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BcXR0o4f3w2hcqqi6WPNix2hgO/portrait-of-a-confident-successful-ceo-p-1774878370228-32327326.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BcXR0o4f3w2hcqqi6WPNix2hgO/portrait-of-a-confident-successful-ceo-p-1774878370228-32327326.png?_wi=2",
         },
       ]}
       title="What Partners Say"
