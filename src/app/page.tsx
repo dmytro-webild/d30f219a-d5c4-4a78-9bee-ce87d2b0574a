@@ -9,7 +9,7 @@ import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
+import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
 
 export default function LandingPage() {
   return (
@@ -86,16 +86,16 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardTwo
-      animationType="depth-3d"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      testimonials={[
-        { id: "1", name: "Sarah J.", role: "CEO", testimonial: "Ace transformed our brand from dated to premium. The ROI was immediate.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BcXR0o4f3w2hcqqi6WPNix2hgO/portrait-of-a-confident-successful-ceo-p-1774878370228-32327326.png?_wi=1" },
-        { id: "2", name: "David M.", role: "Creative Director", testimonial: "Sophisticated design, unmatched attention to detail. True professionals.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BcXR0o4f3w2hcqqi6WPNix2hgO/portrait-of-a-creative-director-studio-l-1774878368085-7dadad12.png" },
+      <TestimonialCardFifteen
+      testimonial="The attention to detail and conversion strategy Ace provided was unmatched. My revenue increased by 40% in just two months after the launch."
+      rating={5}
+      author="Sarah J., CEO"
+      avatars={[
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BcXR0o4f3w2hcqqi6WPNix2hgO/portrait-of-a-confident-successful-ceo-p-1774878370228-32327326.png?_wi=1", alt: "CEO" }
       ]}
-      title="What Partners Say"
-      description="The standard of excellence our clients rely on."
+      ratingAnimation="slide-up"
+      avatarsAnimation="slide-up"
+      useInvertedBackground={false}
     />
   </div>
 
